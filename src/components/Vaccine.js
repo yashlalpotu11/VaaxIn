@@ -30,7 +30,8 @@ const Vaccine = ()=> {
                             name : validSlots[i].name,
                             address : validSlots[i].address,
                             vaccine : validSlots[i].vaccine,
-                            available : validSlots[i].available_capacity,
+                            firstAvailable : validSlots[i].available_capacity_dose1,
+                            secondAvailable : validSlots[i].available_capacity_dose2,
                             Type : validSlots[i].fee_type
                         }
                         setCentres((oldarray)=>[...oldarray, myobj]);
@@ -110,7 +111,8 @@ const Vaccine = ()=> {
                                 return <li key={item}>Centre : {item.name}<br/>
                                 Address : {item.address}<br/>
                                 Vaccine : {item.vaccine}<br/>
-                                Total vaccine available : {item.available}<br/>
+                                1st Dose available : {item.firstAvailable}<br/>
+                                2nd Dose available : {item.secondAvailable}<br/>
                                 Type : {item.Type}
                                 </li>;
                             })}

@@ -14,8 +14,8 @@ function App() {
       </div>
       <footer>
         {/* <hr/> */}
-        <p className="animate"><yash>Note : Currently vaccination for age group <span style={{color:"red"}}>18-44</span> has been <span style={{color:"red"}}>suspended</span> in some district of Maharashtra :( </yash></p>
-        <h2 className="info">For more info visit : <a href="https://www.cowin.gov.in/home"><span style={{fontWeight:"500"}}>Cowin</span></a></h2>
+        <p className="animate"><yash><span style={{color : "red"}}>Note </span>: The free vaccination drive for the <span style={{color : "red"}}>18-30</span> age group began in Maharashtra :) </yash></p>
+        <h2 className="info">Schedule your vaccine at : <a href="https://www.cowin.gov.in/home"><span style={{fontWeight:"500"}}>Cowin</span></a></h2>
         {/* <hr/> */}
         <p className="love">Made with ❤️ by <a href="https://yashlalpotu.netlify.app"> Yash Lalpotu</a></p>
 
